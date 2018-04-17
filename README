@@ -1,0 +1,3 @@
+This Plugin is was based on a plugin named "Example Widget Plugin" written by Jon Penland (See https://gist.github.com/jpen365/08d5bd1e05646490bdc9248d1cabc4f9#file-wp_widget-instance-php for it's source code)
+See the file myZmanimWidget.php for a description of the functionality of this plugin.
+To activate this plugin you must first copy all php files to a place somewhere under (root wordpress folder)\wp-content\plugins\.  Also you must set the "$include_path" variable inside myZmanimWidget.php to the location in which you copied the php files (you must change '\' to '/' in your path).   In order to connect to the "My Zmanim API" "php_soap.dll" and "php_openssl.dll" are required.  They must be enabled in your "php.ini" file.
