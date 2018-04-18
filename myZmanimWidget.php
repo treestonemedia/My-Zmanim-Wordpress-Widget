@@ -10,7 +10,7 @@
  */
 
 //include the file that defines the maus_Zmanim_API class
-$include_path = "C:/xampp/htdocs/wordpress/wp-content/plugins/ZmanimWidget/";
+$include_path = __DIR__;
 include "$include_path" . "zmanimAPI.php"; //base zmanim api class definition
 include "$include_path" . "myZmanimAPI.php";  //"My Zmanim" api class
 include "$include_path" . "inputFormWidget.php"; //base class for widgets that accept and display information entered by the admin
